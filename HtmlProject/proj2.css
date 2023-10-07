@@ -9,6 +9,8 @@ header {
   font-size: 25px;
   height: 11vh;
   padding-top: 5px;
+  padding-left: 24px;
+  FONT-FAMILY: corbel light;
   color: rgb(233, 236, 238);
 }
 
@@ -21,22 +23,50 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  .topanavclass {
+  /* .topanavclass {
     float: left;
     display: block;
     color: #f2f2f2;
+    display: flex;
     text-align: center;
     padding: 0px 25px;
     font-size: 14px;
     text-decoration: none;
-    font-family:Verdana;
+    font-family: Verdana;
     font-weight: bold;
-  }
+  } */
 
 }
 
-.html {
-  width: 65vw;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  /* display: flex; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+b {
+  padding: 10px;
+}
+.Top{
+  padding : 20px 35px;
+}
+
+.description {
+  width: 55vw;
 }
 
 .welcome-container {
@@ -51,13 +81,13 @@ header {
   line-height: 1.7;
   margin-top: 0px;
 
-  .para {
+  .paragraph {
     padding-left: 20px;
     margin: 0px;
   }
-  .para::before {
+
+  .paragraph::before {
     content: "-";
     font-weight: bold;
   }
 }
-
