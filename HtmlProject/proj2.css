@@ -4,38 +4,27 @@ body {
 
 header {
   background-color: #3796C9;
-  /* padding: 10px; */
   text-align: left;
-  font-size: 25px;
-  height: 11vh;
-  padding-top: 5px;
-  padding-left: 24px;
-  FONT-FAMILY: corbel light;
+  font-size: 30px;
+  height: 100px;
+  padding-top: 0px;
+  padding-left: 30px;
+  font-family:  Sans Serif Collection;
   color: rgb(233, 236, 238);
 }
 
 .topnav {
   overflow: hidden;
   background-color: #333;
-  height: 4%;
+  height: 35px;
   padding: 0px;
   display: flex;
+  font-size: 20px;
+  padding-left: 15px;
   align-items: center;
   justify-content: space-between;
-
-  /* .topanavclass {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    display: flex;
-    text-align: center;
-    padding: 0px 25px;
-    font-size: 14px;
-    text-decoration: none;
-    font-family: Verdana;
-    font-weight: bold;
-  } */
-
+  font-family: calibri;
+  font-size: 20px;
 }
 
 ul {
@@ -44,7 +33,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  /* display: flex; */
 }
 
 li {
@@ -55,18 +43,20 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 b {
   padding: 10px;
 }
-.Top{
-  padding : 20px 35px;
+.box{
+  padding : 20px 55px;
+  font-family: Sans Serif Collection;
 }
 
 .description {
   width: 55vw;
+  font-family: calibri;
 }
 
 .welcome-container {
@@ -75,8 +65,8 @@ b {
 }
 
 .style {
-  width: 735px;
-  height: 155px;
+  display: inline-block;
+  padding: 0px 30px 20px 0px;
   border: solid 1px #CDCDCD;
   line-height: 1.7;
   margin-top: 0px;
