@@ -71,6 +71,8 @@ b {
   border: solid 1px #CDCDCD;
   line-height: 2.0;
   margin-top: 0px;
+  
+  font-family: calibri;
 
   .paragraph {
     padding-left: 20px;
